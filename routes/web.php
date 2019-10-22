@@ -22,3 +22,9 @@ Route::get('contact','HomeController@contact');
 Route::get('default','HomeController@default');
 
 Route::get('index','AdminController@index');
+
+Route::get('charts','AdminController@charts');
+
+Route::get('tables','AdminController@tables');
+
+Route::get('login','AdminController@login');
